@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CollectionRemove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Remove method in List and COllection">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TypeInference.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CollectionRemove.executor": "Run",
+    "Application.TypeInference.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -48,7 +48,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TypeInference">
     <configuration name="CollectionRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionRemove" />
       <module name="KnowYourJava" />
@@ -56,8 +56,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TypeInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TypeInference" />
+      <module name="KnowYourJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeInference" />
         <item itemvalue="Application.CollectionRemove" />
       </list>
     </recent_temporary>
@@ -78,6 +86,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731897242863</updated>
     </task>
+    <task id="LOCAL-00001" summary="Remove method in List and COllection">
+      <option name="closed" value="true" />
+      <created>1731898472514</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731898472514</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove method in List and COllection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove method in List and COllection" />
   </component>
 </project>
