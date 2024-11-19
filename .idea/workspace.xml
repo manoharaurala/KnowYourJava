@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="List immutability using List.of method">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Screenshot 2024-11-19 at 11.21.31 PM.png" afterDir="false" />
+    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Avoid Shared mutability in foreach">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Screenshot 2024-11-19 at 11.54.59 PM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +41,9 @@
     "Application.ArraysAsList.executor": "Run",
     "Application.CollectionRemove.executor": "Run",
     "Application.ForEach.executor": "Run",
+    "Application.Stream.executor": "Run",
     "Application.TypeInference.executor": "Run",
+    "Maven.KnowYourJava [compile].executor": "Run",
     "Maven.KnowYourJava [deploy].executor": "Run",
     "Maven.KnowYourJava [install].executor": "Run",
     "Maven.KnowYourJava [package].executor": "Run",
@@ -55,7 +56,8 @@
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -63,7 +65,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ForEach">
+  <component name="RunManager" selected="Application.Stream">
     <configuration name="ArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAsList" />
       <module name="KnowYourJava" />
@@ -85,6 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream" />
+      <module name="KnowYourJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TypeInference" />
       <module name="KnowYourJava" />
@@ -94,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stream" />
         <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.ArraysAsList" />
         <item itemvalue="Application.TypeInference" />
@@ -141,14 +151,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731954177454</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Avoid Shared mutability in foreach">
+      <option name="closed" value="true" />
+      <created>1732040049470</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1732040049470</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove method in List and COllection" />
     <MESSAGE value="Remove method in Collection and when we use type inference" />
     <MESSAGE value="List immutability using List.of method" />
-    <option name="LAST_COMMIT_MESSAGE" value="List immutability using List.of method" />
+    <MESSAGE value="Avoid Shared mutability in foreach" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avoid Shared mutability in foreach" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
