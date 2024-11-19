@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Remove method in Collection and when we use type inference">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArraysAsList.java" afterDir="false" />
+    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="List immutability using List.of method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Screenshot 2024-11-19 at 11.21.31 PM.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +41,7 @@
   "keyToString": {
     "Application.ArraysAsList.executor": "Run",
     "Application.CollectionRemove.executor": "Run",
+    "Application.ForEach.executor": "Run",
     "Application.TypeInference.executor": "Run",
     "Maven.KnowYourJava [deploy].executor": "Run",
     "Maven.KnowYourJava [install].executor": "Run",
@@ -55,7 +58,12 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArraysAsList">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ForEach">
     <configuration name="ArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAsList" />
       <module name="KnowYourJava" />
@@ -70,6 +78,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ForEach" />
+      <module name="KnowYourJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TypeInference" />
       <module name="KnowYourJava" />
@@ -79,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.ArraysAsList" />
         <item itemvalue="Application.TypeInference" />
         <item itemvalue="Application.CollectionRemove" />
@@ -117,13 +133,22 @@
       <option name="project" value="LOCAL" />
       <updated>1731898896758</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="List immutability using List.of method">
+      <option name="closed" value="true" />
+      <created>1731954177453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731954177454</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove method in List and COllection" />
     <MESSAGE value="Remove method in Collection and when we use type inference" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove method in Collection and when we use type inference" />
+    <MESSAGE value="List immutability using List.of method" />
+    <option name="LAST_COMMIT_MESSAGE" value="List immutability using List.of method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -132,6 +157,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/ArraysAsList.java</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ForEach.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
