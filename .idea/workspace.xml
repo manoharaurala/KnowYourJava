@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Avoid Shared mutability in foreach">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Screenshot 2024-11-19 at 11.54.59 PM.png" afterDir="false" />
+    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Use pure function in lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Stream2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Stream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +26,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2p0Jp2dLcp3EFQ5YNPOxVqWavee" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +41,7 @@
     "Application.CollectionRemove.executor": "Run",
     "Application.ForEach.executor": "Run",
     "Application.Stream.executor": "Run",
+    "Application.Stream2.executor": "Run",
     "Application.TypeInference.executor": "Run",
     "Maven.KnowYourJava [compile].executor": "Run",
     "Maven.KnowYourJava [deploy].executor": "Run",
@@ -52,6 +52,7 @@
     "Maven.KnowYourJava [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -65,16 +66,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Stream">
+  <component name="RunManager" selected="Application.Stream2">
     <configuration name="ArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAsList" />
-      <module name="KnowYourJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionRemove" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CollectionRemove" />
       <module name="KnowYourJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,6 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Stream2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream2" />
+      <module name="KnowYourJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TypeInference" />
       <module name="KnowYourJava" />
@@ -103,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stream2" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.ArraysAsList" />
         <item itemvalue="Application.TypeInference" />
-        <item itemvalue="Application.CollectionRemove" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732040049470</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Use pure function in lambda">
+      <option name="closed" value="true" />
+      <created>1732041416639</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1732041416639</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -167,7 +176,8 @@
     <MESSAGE value="Remove method in Collection and when we use type inference" />
     <MESSAGE value="List immutability using List.of method" />
     <MESSAGE value="Avoid Shared mutability in foreach" />
-    <option name="LAST_COMMIT_MESSAGE" value="Avoid Shared mutability in foreach" />
+    <MESSAGE value="Use pure function in lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use pure function in lambda" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
