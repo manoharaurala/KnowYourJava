@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Use pure function in lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Stream2.java" afterDir="false" />
+    <list default="true" id="7ac5bf8e-259f-43c9-9aa5-e02283eda152" name="Changes" comment="Java8 stream do not segment pipeline for different threading model">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Derived.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Sample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,16 +33,20 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2p0Jp2dLcp3EFQ5YNPOxVqWavee" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.ArraysAsList.executor": "Run",
     "Application.CollectionRemove.executor": "Run",
     "Application.ForEach.executor": "Run",
+    "Application.Sample.executor": "Run",
     "Application.Stream.executor": "Run",
     "Application.Stream2.executor": "Run",
     "Application.TypeInference.executor": "Run",
@@ -52,6 +59,7 @@
     "Maven.KnowYourJava [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -66,7 +74,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Stream2">
+  <component name="RunManager" selected="Application.Sample">
     <configuration name="ArraysAsList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysAsList" />
       <module name="KnowYourJava" />
@@ -77,6 +85,19 @@
     <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ForEach" />
       <module name="KnowYourJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Sample" />
+      <module name="KnowYourJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,20 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeInference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypeInference" />
-      <module name="KnowYourJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sample" />
         <item itemvalue="Application.Stream2" />
         <item itemvalue="Application.Stream" />
         <item itemvalue="Application.ForEach" />
         <item itemvalue="Application.ArraysAsList" />
-        <item itemvalue="Application.TypeInference" />
       </list>
     </recent_temporary>
   </component>
@@ -168,16 +182,26 @@
       <option name="project" value="LOCAL" />
       <updated>1732041416639</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java8 stream do not segment pipeline for different threading model">
+      <option name="closed" value="true" />
+      <created>1732042255967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1732042255967</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Remove method in List and COllection" />
     <MESSAGE value="Remove method in Collection and when we use type inference" />
     <MESSAGE value="List immutability using List.of method" />
     <MESSAGE value="Avoid Shared mutability in foreach" />
     <MESSAGE value="Use pure function in lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use pure function in lambda" />
+    <MESSAGE value="Java8 stream do not segment pipeline for different threading model" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java8 stream do not segment pipeline for different threading model" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
